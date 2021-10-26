@@ -3,12 +3,12 @@ h1,h2,h3,h4,h5,h6,p {
   padding: 0;
 }
 a {
-  color: var(--color-primary);
+  color: var(--color-light);
   text-decoration: none;
   transition: .2s;
 }
 a:hover {
-  color: var(--color-secondary);
+  color: var(--color-dark);
   transition: .2s;
 }
 
@@ -20,8 +20,8 @@ html {
   --txt-contrast: #fff;
   --txt-muted: #888;
 
-  --color-primary: #fa9300;
-  --color-secondary: #d70;
+  --color-light: #fa9300;
+  --color-dark: #d70;
 
   margin: 0;
   padding: 0;
@@ -79,7 +79,7 @@ main {
   grid-template: 1fr / 1fr 1fr;
   grid-gap: 32px;
   padding: 32px;
-  background-color: var(--color-primary);
+  background-color: var(--color-light);
 }
 
 .links-card {
